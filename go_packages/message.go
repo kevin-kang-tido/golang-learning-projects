@@ -8,7 +8,7 @@ import "fmt"
   
 func GetMessageFromUser(){
 
-	fmt.Println("this is name: ",name_string);
+	fmt.Println("this is name: ");
 
 	// GetHelloworld();
 }

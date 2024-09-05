@@ -4,15 +4,13 @@ import (
 	"fmt"
 )
 
-var name_string string = "keivn";
-
-
-
 type WelcomeUser struct{
+
 		firstName string
 		lastName string
 		old uint
 		email string
+		
 	}
 
 
@@ -33,8 +31,8 @@ func GetWelcomeUser(){
 	fmt.Scan(&user.lastName)
 
     fmt.Println("How old you are: ")
-	fmt.Println(&user.old)
-	
+	fmt.Scan(&user.old)
+
 	fmt.Println("Please Enter your email: ")
 	fmt.Scan(&user.email)
 
@@ -47,4 +45,8 @@ func GetWelcomeUser(){
 	 `, user.firstName, user.lastName, user.old, user.email)
  
 }
+
+
+
+
 
